@@ -91,7 +91,7 @@ struct mywidgets: Widget {
     init() {
         FirebaseApp.configure()
         do {
-            try Auth.auth().useUserAccessGroup("35W7TZ9DUM.com.paigesoftware.firebase-widgets")
+            try Auth.auth().useUserAccessGroup("teamid.com.paigesoftware.firebase-widgets")
         } catch {
             print(error.localizedDescription)
         }
